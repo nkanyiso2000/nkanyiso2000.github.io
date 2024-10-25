@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Developer Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #8299a9;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #2980b9;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5em;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 1em;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            margin: 0 1em;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* About Section */
+        #about {
+            background: #f4f4f4;
+        }
+
+        /* Project Section */
+        #projects .project {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 1em;
+            margin: 1em 0;
+        }
+
+        /* Skills Section */
+        #skills ul {
+            list-style-type: none;
+        }
+
+        /* Contact Section */
+        #contact form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #contact form input, #contact form textarea {
+            padding: 1em;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+        }
+
+        #contact form button {
+            padding: 1em;
+            background: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #contact form button:hover {
+            background: #2980b9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1em;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Developer Portfolio</h1>
+        <p>Welcome to my professional portfolio showcasing my skills, projects, and experience!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate developer with experience in Programming. I love creating efficient, scalable, and user-friendly applications that solve real-world problems.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Local library Books</h3>
+            <p>Description: This is my library books program where the user can able to search, list, update and also borrow books in the library.</p>
+            <p>Technologies Used: Python, Tkinter</p>
+            <a href="https://github.com/nkanyiso2000/libraryBooks">GitHub Repo</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Languages: JavaScript, Python, Java, Html, Css</li>
+            <li>Frameworks: Flask, ASP.NET Core </li>
+            <li>Tools: Git, Visual Studio Code</li>
+            <li>Soft Skills: Communication, Problem Solving, Project Management</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out through the form below!</p>
+        <form action="mailto:lamulankanyiso1@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Developer Portfolio</p>
+    </footer>
+
+</body>
+</html>
